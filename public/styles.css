@@ -56,13 +56,28 @@ body {
 .footer {
   grid-area: footer;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #f8f6d1;
 }
 
+.footer > small {
+  margin-top: 1rem;
+}
+
 a.btn {
   text-decoration: none;
+  color: #f8f6d1;
+}
+
+a.btn-download {
   font-size: 1.5rem;
   color: rgb(107, 48, 62);
+}
+
+a.btn-footer {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #f8f6d1;
 }
